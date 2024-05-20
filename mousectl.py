@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 '''
 Runs ratbagctl on startup. Identifies name given to mouse, and sets LED to 0.
+
+TODO:
+  - add system that parses mouse setup to create a set of instructions to execute
 '''
 import subprocess
 
